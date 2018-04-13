@@ -1,16 +1,8 @@
-# NPM Packages
+
+# Microsoft Store
+
 ```
-@angular/cli
-firebase-tools
-http-server
-nodemon
-npm-windows-upgrade
-nps
-ts-node
-typescript
-vue-cli
-webpack
-windows-build-tools
+Inkscape
 ```
 
 # Chocolatey Packages
@@ -66,4 +58,20 @@ visualstudiocode 1.21.1
 vlc 3.0.1
 winscp 5.13.1
 winscp.install 5.13.1
+```
+
+
+# NPM Packages
+```
+@angular/cli
+firebase-tools
+http-server
+nodemon
+npm-windows-upgrade
+nps
+ts-node
+typescript
+vue-cli
+webpack
+windows-build-tools
 ```
