@@ -1,0 +1,4 @@
+npm install --global --production windows-build-tools
+npm install -g npm-windows-upgrade webpack @angular/cli http-server nodemon nps typescript ts-node vue-cli 
+npm install -g --no-optional firebase-tools
+ C:\Users\makombo\AppData\Roaming\npm
