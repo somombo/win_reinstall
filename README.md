@@ -28,7 +28,7 @@ Dolby Access
 
 > See `packages.config`
 
-To install C++ windows build toolchain run,
+To install C++ windows build toolchain run, (might already have been installed by [Windows Build Tools](https://github.com/felixrieseberg/windows-build-tools#readme))
 ```
 choco install visualstudio2019buildtools --package-parameters "--add Microsoft.VisualStudio.Workload.VCTools --includeRecommended --passive --locale en-US --norestart"
 ```
