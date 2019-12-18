@@ -28,6 +28,11 @@ Dolby Access
 
 > See `packages.config`
 
+To install C++ windows build toolchain run,
+```
+choco install visualstudio2019buildtools --package-parameters "--add Microsoft.VisualStudio.Workload.VCTools --includeRecommended --passive --locale en-US --norestart"
+```
+
 
 # NPM Packages
 
