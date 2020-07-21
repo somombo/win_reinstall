@@ -44,4 +44,19 @@ npm install --global --production windows-build-tools npm-windows-upgrade
 Then:
 ```
 npm i -g @angular/cli firebase-tools http-server nodemon npm-windows-upgrade nps ts-node typescript vue-cli webpack-cli
+
+```
+
+# WSL2
+
+```
+# Edit the sudoers with the visudo command
+sudo visudo
+
+# Change the %sudo group to be password-less
+%sudo   ALL=(ALL:ALL) NOPASSWD: ALL
+
+# Press CTRL+X to exit
+# Press Y to save
+# Press Enter to confirm
 ```
