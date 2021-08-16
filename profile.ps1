@@ -10,6 +10,8 @@ function doc { docd; docb; docu; docl }
 
 #region conda initialize
 # !! Contents within this block are managed by 'conda init' !!
-(& "C:\tools\miniconda3\Scripts\conda.exe" "shell.powershell" "hook") | Out-String | Invoke-Expression
+function conda { 
+  (& "C:\tools\miniconda3\Scripts\conda.exe" "shell.powershell" "hook") | Out-String | Invoke-Expression
+}
 #endregion
 
