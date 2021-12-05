@@ -2,3 +2,8 @@ git config --global user.email "somo@mombo.solutions"
 git config --global user.name "Somo S."
 git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
 git config --global core.autocrlf input
+
+# things to always ignore
+echo "**/*.secret" >> ~/.gitignore
+echo "**/*.ignore" >> ~/.gitignore
+git config --global core.excludesFile ~/.gitignore
