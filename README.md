@@ -1,10 +1,3 @@
-# Free (Vendor Website)
-
-```
-Betternet VPN
-Keypass 2
-```
-
 # Commercial
 
 ```
