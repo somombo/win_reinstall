@@ -1,0 +1,15 @@
+[core]
+	editor = code --wait --new-window
+	autocrlf = input
+	symlinks = true
+	excludesFile = ~/.gitignore
+[alias]
+	last = log -1 HEAD
+	viz = !gitk --all
+	tree =  "!git log --graph --decorate --pretty=format:'%C(yellow)%h %Cred%cr %Cblue(%an)%C(cyan)%d%Creset %s' --abbrev-commit --all"
+	new = "!git init && echo .vscode/ > .gitignore && echo && git add --all . && git commit -m \"initial commit\" && echo && git status"
+	objclean = "!f(){ TARGET=.git/objects; DIRS=`find $TARGET -type d -empty -print`;  MSG=`echo && printf '%s\n' \"${DIRS[@]}\" && echo; echo 'y|N ?  '` ; echo; if [ -z \"$DIRS\" ]; then echo \"No empty objects directories!\" && exit 0; fi; read -p \"Are you sure you want to delete the following empty directories: $MSG\" -r CHOICE; echo; if [[ $CHOICE =~ ^[Yy]$ ]] ; then find $TARGET -type d -empty -delete; fi; }; f"
+[diff]
+	tool = default-difftool
+[difftool "default-difftool"]
+	cmd = code --wait --diff $LOCAL $REMOTE
