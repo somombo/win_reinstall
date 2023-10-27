@@ -6,5 +6,7 @@ git config --global core.autocrlf input
 
 # things to always ignore
 echo "**/*.secret" >> ~/.gitignore
+echo "**/*.secrets" >> ~/.gitignore
 echo "**/*.ignore" >> ~/.gitignore
+echo "**/__delete" >> ~/.gitignore
 git config --global core.excludesFile ~/.gitignore
